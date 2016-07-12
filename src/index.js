@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = function hideVirtualKeyboard() {
+module.exports = function hideVirtualKeyboard () {
   if (
     document.activeElement &&
     document.activeElement.blur &&

@@ -4,7 +4,7 @@
   "description": "Hides virtual keyboard on a real mobile device",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/caiogondim/hide-virtual-keyboard.js/issues"
   },
-  "homepage": "https://github.com/caiogondim/hide-virtual-keyboard.js#readme"
+  "homepage": "https://github.com/caiogondim/hide-virtual-keyboard.js#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
 }
