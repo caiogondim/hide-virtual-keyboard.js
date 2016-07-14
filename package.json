@@ -4,7 +4,8 @@
   "description": "Hides virtual keyboard on a real mobile device",
   "main": "src/index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/caiogondim/hide-virtual-keyboard.js#readme",
   "devDependencies": {
-    "standard": "^7.1.2"
+    "standard": "^7.1.2",
+    "webpack": "^1.13.1"
   }
 }
