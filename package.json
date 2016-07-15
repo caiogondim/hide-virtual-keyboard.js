@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Hides virtual keyboard on a real mobile device",
   "main": "src/index.js",
+  "browser": "dist/hide-virtual-keyboard.js",
   "scripts": {
     "test": "standard",
     "build": "webpack"
