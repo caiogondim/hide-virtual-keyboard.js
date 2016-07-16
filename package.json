@@ -6,7 +6,7 @@
   "browser": "dist/hide-virtual-keyboard.js",
   "scripts": {
     "test": "standard",
-    "build": "webpack && uglifyjs ./dist/hide-virtual-keyboard.js --screw-ie8 -o ./dist/hide-virtual-keyboard.js"
+    "build": "webpack && uglifyjs ./dist/hide-virtual-keyboard.js --screw-ie8 -o ./dist/hide-virtual-keyboard.js && ./tasks/write-banner"
   },
   "repository": {
     "type": "git",
