@@ -1,3 +1,5 @@
+<img src="http://rawgit.com/caiogondim/hide-virtual-keyboard.js/master/img/icon.svg">
+
 # hide-virtual-keyboard.js
 
 Hides the virtual keyboard on a mobile device (iOS, Android, ...)
