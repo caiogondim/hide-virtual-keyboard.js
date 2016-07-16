@@ -6,7 +6,7 @@
   "browser": "dist/hide-virtual-keyboard.js",
   "scripts": {
     "test": "standard",
-    "build": "webpack"
+    "build": "webpack && uglifyjs ./dist/hide-virtual-keyboard.js --screw-ie8 -o ./dist/hide-virtual-keyboard.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/caiogondim/hide-virtual-keyboard.js#readme",
   "devDependencies": {
     "standard": "^7.1.2",
+    "uglify-js": "^2.7.0",
     "webpack": "^1.13.1"
   }
 }
