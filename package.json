@@ -1,6 +1,6 @@
 {
   "name": "hide-virtual-keyboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hides virtual keyboard on a real mobile device",
   "main": "src/index.js",
   "browser": "dist/hide-virtual-keyboard.js",
